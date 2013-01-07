@@ -1,0 +1,45 @@
+<head>
+</head>
+<body background = "background.jpg">
+<button><FONT FACE = "COMIC SANS MS" SIZE = +1 COLOR = "0000CC">
+<script type="text/javascript">
+document.write ('<p>Current time is: <span id="date-time">', new Date().toLocaleString(), '<\/span>.<\/p>')
+if (document.getElementById) onload = function () {
+  setInterval ("document.getElementById ('date-time').firstChild.data = new Date().toLocaleString()", 50)
+}
+</script></button><br></FONT>
+</body>
+<title>
+What about Emre?
+</title>
+
+<button>
+<a href="http://www.deu.edu.tr/deuwebv2/Anasayfa.php?"><img src="logo_deu.jpeg" alt="My site home bage"></a><br>
+<FONT COLOR = "red" SIZE = +2 FACE = "Comic Sans MS">Click image for go to DEU website
+</button><br>
+
+
+
+
+
+
+
+
+
+
+
+<button>
+<form>
+My First name: <input type="text" name="firstname" value = "Emre"><br>
+My Last name: <input type="text" name="lastname" value = "Unal"><br>
+</button>
+</form>
+<button>
+<input type=button onClick="parent.location='web.html'" value='click here for go to homepage'>
+</button>
+
+
+<form name="input" action="thanks.html" method="get">
+Your ideas about my site: <input type="text" name="user">
+<input type="submit" value="Submit">
+</form>
